@@ -1,5 +1,5 @@
 /* app/global.css */
-body {
+/* body {
   margin: 0;
   padding: 0;
   background-color: rgba(0, 0, 0, 1);
@@ -12,8 +12,9 @@ body {
 
 h1,
 p {
-  color: #ff4c4c; /* Neon Red */
+  color: #ff4c4c;
 }
+*/
 
 .container {
   display: flex;
@@ -25,7 +26,7 @@ p {
   background: #000;
 }
 
-main {
+/* main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -33,7 +34,7 @@ main {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-}
+} */
 
 .dropzone {
   border: 2px dashed #3e3e3e;
@@ -55,7 +56,7 @@ main {
   color: #a020f0; /* Neon Purple */
 }
 
-button {
+/* button {
   background-color: #ff4c4c;
   color: white;
   border: none;
@@ -68,7 +69,7 @@ button {
 button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px #ff4c4c, 0 0 30px #ff4c4c;
-}
+} */
 
 .neonText {
   color: #fff;

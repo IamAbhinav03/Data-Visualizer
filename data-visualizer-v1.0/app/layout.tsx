@@ -4,7 +4,7 @@ import { CsvProvider } from "./context/CsvContext";
 
 export const metadata = {
   title: "Data Visualizer v1.0",
-  description: "A simple 2d data plotter",
+  description: "A simple 2d data visualizer",
 };
 
 export default function RootLayout({

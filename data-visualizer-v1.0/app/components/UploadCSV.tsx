@@ -6,8 +6,7 @@ import { useDropzone } from "react-dropzone";
 import { useRouter } from "next/navigation";
 import { useCsv } from "../context/CsvContext";
 import * as d3 from "d3";
-import { motion } from "framer-motion";
-import styles from "../global.css";
+import styles from "./UploadCSV.module.css";
 
 const UploadCSV: React.FC = () => {
   const { setData } = useCsv();
