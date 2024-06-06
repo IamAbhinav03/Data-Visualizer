@@ -1,0 +1,77 @@
+/* app/globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+p {
+  color: #ff4c4c; /* Neon Red */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background: linear-gradient(145deg, #0d0d0d, #1a1a1a); */
+  background: #000;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.dropzone {
+  border: 2px dashed #3e3e3e;
+  /* background-color: #1a1a1a; */
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #fa0070, 0 0 20px #a020f0;
+  transition: box-shadow 0.3s ease;
+}
+
+.dropzone:hover {
+  box-shadow: 0 0 20px #a020f0, 0 0 30px #a020f0;
+}
+
+.dropzone p {
+  margin: 0;
+  color: #a020f0; /* Neon Purple */
+}
+
+button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff4c4c, 0 0 20px #ff4c4c;
+  transition: transform 0.2s, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff4c4c, 0 0 30px #ff4c4c;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
