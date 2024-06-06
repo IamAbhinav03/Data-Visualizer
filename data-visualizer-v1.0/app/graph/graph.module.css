@@ -1,0 +1,31 @@
+/* app/graph/Graph.module.css */
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#graph {
+  display: block;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background: #1a1a1a;
+  border: 2px solid #00ccff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.buttons button:hover {
+  background: #00ccff;
+  color: #1a1a1a;
+}
